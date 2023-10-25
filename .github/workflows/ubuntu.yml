@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "gamerabous094@gmail.com"
-  GitHubName: "AndVer" 
+  GitHubMail: "hasajapathirana2011@gmail.com"
+  GitHubName: "Hasajapathirana" 
   Branch: "main"
 defaults:
   run:
