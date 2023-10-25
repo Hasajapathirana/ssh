@@ -19,10 +19,10 @@ jobs:
     steps:
     - name: Initializing environment
       run: |
-        git config --global user.name ""
-        git config --global user.email ""               
+        git config --global user.name "Hasajapathirana"
+        git config --global user.email "hasajapathirana2011@gmail.com"               
         sudo -E apt-get -qq update
-        sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev repo rsync flex curl bison aria2
+        sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python3 gcc clang libssl-dev repo rsync flex curl bison aria2
         sudo curl --create-dirs -L -o /usr/local/bin/repo -O -L https://storage.googleapis.com/git-repo-downloads/repo
         sudo chmod a+rx /usr/local/bin/repo
         git clone https://github.com/Hostfl/ssh ssh && cd ssh && bash *.sh
